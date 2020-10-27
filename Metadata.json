@@ -1,0 +1,20 @@
+{
+    "Author": "Pradebban Raja",
+    "ContentSize": 1182,
+    "ContentUrl": "https://raw.githubusercontent.com/azureautomation/stopstartvmss(vm-scalesets)/master/Stop-Start-VMSS.ps1",
+    "DownloadCount": 8362,
+    "Id": "Stop-Start-VMSSVM-Scalesets-21a3b798",
+    "IsFederated": false,
+    "IsWorkflow": false,
+    "Popularity": 59,
+    "RaterCount": 2,
+    "Rating": 5.0,
+    "ReleaseDate": "2017-12-7T00:00:00",
+    "RunbookKind": 5,
+    "RunbookKindString": "PowerShell",
+    "Summary": "This PowerShell Workflow runbook connects to Azure using an Automation Run As account and Starts/Stops all VMScalesets (VMSS) in a resource group in-parallel. You can attach a recurring schedule to this runbook to run it at a specific time.",
+    "Title": "Stop-Start-VMSS(VM Scalesets)",
+    "UpdatedDate": "2019-8-16T00:00:00",
+    "Url": "https://github.com/azureautomation/stopstartvmss(vm-scalesets)",
+    "UserTags": "Windows Azure PowerShell, Virtual Machines, Azure Powershell"
+}
