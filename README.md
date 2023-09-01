@@ -3,33 +3,30 @@
 
             
 
-DESCRIPTION
+**DESCRIPTION** 
 
 
-This PowerShell Workflow runbook connects to Azure using an Automation Run As account and Starts/Stops all VMScalesets (VMSS) in a resource group in-parallel. You could add a recurring schedule to this runbook to run it at a specific time.
+This PowerShell Workflow runbook connects to Azure using Managed Identity and Starts/Stops all VMScalesets (VMSS) in a resource group in-parallel. You could add a recurring schedule to this runbook to run it at a specific time.
 
 
-REQUIRED
+**REQUIRED**
+
+1. You have to create a managed identity for your automation account.
+2. A **AzureResourceGroup **input parameter value that allows scoping VMSSs to a particular resource group. 
+3. An **Action **to perform. Stop - to stop the VM ScaleSets; Start - to start the VM Scalesets.
 
 
-1. A **AzureResourceGroup **input parameter value that allows scoping VMSSs to a particular resource group. 
+**AUTHOR**
 
+Chetan Kaur
 
-2. An **Action **to perform. Stop - to stop the VM ScaleSets; Start - to start the VM Scalesets
+**LAST EDIT**
 
+30-08-2023
 
-NOTES:
+**RELEASE NOTES**
 
-
-1. **SubscriptionId **- Is added as an variable under Shared Resources at the Automation Account level.
-
-
-2. **AzureCredential **- Is added as an credential under Shared Resources at the Automation Account level.
-
-
- 
-
-
+2023-08-30 : Updated runbook with Managed Identity authentication
  
 
  
